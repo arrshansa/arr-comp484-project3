@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Status Manager Project</title>
+    <!-- Link to the CSS file for styling (Task 2) -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app-container">
+      <!-- Main Title (Task 1) -->
+      <h1 id="main-title">Status Manager</h1>
+
+      <div id="control-panel">
+        <!-- Toggle Anchor Tag (Task 1 & Task 4 attribute modification target) -->
+        <a id="toggle-button" href="#">Click to Update Status</a>
+
+        <!-- Timer Button (Task 1 & Task 10 event listener target) -->
+        <button id="timer-button">Start Timer</button>
+      </div>
+
+      <!-- Status Output Div (Task 1). Initially hidden via CSS class (Task 2) -->
+      <div id="status-output" class="hidden">
+        <p>Current Status Information:</p>
+        <!-- Task 8 will append elements here -->
+      </div>
+
+      <!-- Unordered List (Task 1 & Task 9 iteration target) -->
+      <h2>Item List</h2>
+      <ul id="item-list">
+        <li>List Item One</li>
+        <li>List Item Two</li>
+        <li>List Item Three</li>
+        <li>List Item Four</li>
+        <li>List Item Five</li>
+      </ul>
+    </div>
+
+    <!-- Link to the JavaScript file for interactivity -->
+    <script src="script.js"></script>
+  </body>
+</html>
