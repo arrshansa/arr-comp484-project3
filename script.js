@@ -34,10 +34,10 @@ highlightListItems();
 // Task 8: Dynamic Element Creation
 function createTimestamp() {
   // Remove any existing timestamps first
-  statusOutput.querySelectorAll("span").forEach((span) => span.remove());
+  // statusOutput.querySelectorAll("span").forEach((span) => span.remove());
 
   const span = document.createElement("span");
-  span.innerHTML = new Date().toLocaleTimeString();
+  span.innerHTML = new Date().toLocaleTimeString() + " ";
   statusOutput.appendChild(span);
 }
 
